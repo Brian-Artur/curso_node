@@ -3,6 +3,9 @@
 + [Arquitectura deseada](./01_arquitectura_deseada.md)
 + [Herramientas](./02_herramientas.md)
 + [Libuv](./03_libuv.md)
++ [File System](./04_file_system.md)
++ [Componentes](./05_componentes.md)
++ [Iniciar proyecto nuevo](./06_iniciar_proyecto.md)
 
 
 # Completado
@@ -84,41 +87,42 @@ Aquí podrías usar Mongoose si quieres algo más guiado.
 
 Aquí podrías usar Prisma o Drizzle.
 
-8. Autenticación
-[ ] Registro de usuarios
-[ ] Login
-[ ] Hash de contraseñas
-[ ] JWT
-[ ] Middleware de autenticación
-[ ] Rutas protegidas
-[ ] Roles básicos: admin/user
-9. Documentación de API
+## 8. Autenticación
++ [ ] Registro de usuarios
++ [ ] Login
++ [ ] Hash de contraseñas
++ [ ] JWT
++ [ ] Middleware de autenticación
++ [ ] Rutas protegidas
++ [ ] Roles básicos: admin/user
+
+## 9. Documentación de API
 [ ] Documentar endpoints
 [ ] Añadir ejemplos de request/response
 [ ] Usar Swagger/OpenAPI
 [ ] Crear una colección de Postman o Bruno
 
+## 10. Docker básico
++ [ ] Crear Dockerfile para la API
++ [ ] Crear docker-compose
++ [ ] Levantar API + MongoDB
++ [ ] Levantar API + PostgreSQL
++ [ ] Usar variables de entorno en Docker
 
-10. Docker básico
-[ ] Crear Dockerfile para la API
-[ ] Crear docker-compose
-[ ] Levantar API + MongoDB
-[ ] Levantar API + PostgreSQL
-[ ] Usar variables de entorno en Docker
-11. Redis / caché
-[ ] Conectar Redis
-[ ] Guardar datos temporales
-[ ] Leer datos desde caché
-[ ] Invalidar caché
-[ ] Usar expiración con TTL
+## 11. Redis / caché
++ [ ] Conectar Redis
++ [ ] Guardar datos temporales
++ [ ] Leer datos desde caché
++ [ ] Invalidar caché
++ [ ] Usar expiración con TTL
 
 Ejemplo:
 
 /products → primero mira Redis → si no hay datos, consulta PostgreSQL
-12. Testing con Vitest
-[ ] Testear funciones simples
-[ ] Testear services
-[ ] Testear repositories con mocks
-[ ] Testear endpoints con fastify.inject()
-[ ] Testear errores
-[ ] Crear tests de integración básicos
+## 12. Testing con Vitest
++ [ ] Testear funciones simples
++ [ ] Testear services
++ [ ] Testear repositories con mocks
++ [ ] Testear endpoints con fastify.inject()
++ [ ] Testear errores
++ [ ] Crear tests de integración básicos
